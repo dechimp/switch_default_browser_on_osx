@@ -3,7 +3,7 @@ set -e
 defaultbrowser_program_path=~/bin/defaultbrowser
 
 usage() {
-	echo "Usage: $0 (chrome|safari|firefox)"
+	echo "Usage: $0 (chrome|safari|firefox|brave)"
 	exit 1
 }
 
@@ -18,6 +18,8 @@ chrome)
 safari)
 	;;
 firefox)
+	;;
+brave)
 	;;
 *)
 	usage

@@ -2,27 +2,22 @@
 <root>
   <vkopenurldef>
     <name>KeyCode::VK_OPEN_URL_SHELL_defaultbrowser_Safari</name>
-    <url type="shell">
-      <![CDATA[ ~/bin/switch_default_browser.sh safari ]]>
-    </url>
+    <url type="shell"><![CDATA[ ~/bin/switch_default_browser.sh safari ]]></url>
   </vkopenurldef>
-
   <vkopenurldef>
     <name>KeyCode::VK_OPEN_URL_SHELL_defaultbrowser_Google_Chrome</name>
-    <url type="shell">
-      <![CDATA[ ~/bin/switch_default_browser.sh chrome ]]>
-    </url>
+    <url type="shell"><![CDATA[ ~/bin/switch_default_browser.sh chrome ]]></url>
   </vkopenurldef>
-
   <vkopenurldef>
     <name>KeyCode::VK_OPEN_URL_SHELL_defaultbrowser_Firefox</name>
-    <url type="shell">
-      <![CDATA[ ~/bin/switch_default_browser.sh firefox ]]>
-    </url>
+    <url type="shell"><![CDATA[ ~/bin/switch_default_browser.sh firefox ]]></url>
   </vkopenurldef>
-
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_SHELL_defaultbrowser_Brave</name>
+    <url type="shell"><![CDATA[ ~/bin/switch_default_browser.sh brave ]]></url>
+  </vkopenurldef>
   <item>
-    <name>Map right-⌘ + S to set default browser to Safari</name>
+    <name>Map right-&#x2318; + S to set default browser to Safari</name>
     <identifier>private.right_command_s</identifier>
     <autogen>
       __KeyToKey__
@@ -30,9 +25,8 @@
       KeyCode::VK_OPEN_URL_SHELL_defaultbrowser_Safari
     </autogen>
   </item>
-
   <item>
-    <name>Map right-⌘ + C to set default browser to Google Chrome</name>
+    <name>Map right-&#x2318; + C to set default browser to Google Chrome</name>
     <identifier>private.right_command_c</identifier>
     <autogen>
       __KeyToKey__
@@ -40,9 +34,8 @@
       KeyCode::VK_OPEN_URL_SHELL_defaultbrowser_Google_Chrome
     </autogen>
   </item>
-
   <item>
-    <name>Map right-⌘ + F to set default browser to Firefox</name>
+    <name>Map right-&#x2318; + F to set default browser to Firefox</name>
     <identifier>private.right_command_f</identifier>
     <autogen>
       __KeyToKey__
@@ -50,5 +43,13 @@
       KeyCode::VK_OPEN_URL_SHELL_defaultbrowser_Firefox
     </autogen>
   </item>
-
+  <item>
+    <name>Map right-&#x2318; + B to set default browser to Brave</name>
+    <identifier>private.right_command_b</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::B, ModifierFlag::COMMAND_R,
+      KeyCode::VK_OPEN_URL_SHELL_defaultbrowser_Brave
+    </autogen>
+  </item>
 </root>
