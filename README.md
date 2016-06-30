@@ -3,7 +3,7 @@ switch_default_browser_on_osx
 
 Now with [Brave](https://brave.com/)!
 
-This is a fork of <https://github.com/dechimp/switch_default_browser_on_osx>, with Brave included in the browser set.  
+This is a fork of <https://github.com/hnakamur/switch_default_browser_on_osx>, with Brave included in the browser set.  
 
 Here are the commands:
 * Map right-⌘ + S to set default browser to Safari
