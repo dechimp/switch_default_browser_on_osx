@@ -1,6 +1,8 @@
 switch_default_browser_on_osx
 =============================
 
+Does not currently work on macOS Sierra.
+
 Now with [Brave](https://brave.com/)!
 
 This is a fork of <https://github.com/hnakamur/switch_default_browser_on_osx>, but with Brave included in the browser set.  See the original project for installation instructions.
